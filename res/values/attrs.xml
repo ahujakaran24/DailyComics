@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HellGallery">
+        <attr name="android:galleryItemBackground" />
+    </declare-styleable>
+    <declare-styleable name="Galler1">
+        <attr name="android:galleryItemBackground" />
+ </declare-styleable>
+</resources>

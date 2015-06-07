@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AB" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/BAB</item>
+          <item name="android:actionMenuTextColor">#ffffff</item>
+    </style>
+
+    <style name="BAB" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#0266c8</item>
+         <item name="android:titleTextStyle">@style/myTheme.ActionBar.txt</item>
+    </style>
+
+   <style name="myTheme.ActionBar.txt" parent="@android:style/TextAppearance">
+    <item name="android:textColor">#ffffff</item>
+</style>
+
+</resources>

@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/glry"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="View stored comic"/>
+    <item
+        android:id="@+id/shr"
+        android:icon="@drawable/sheikha"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Share Comic"/>
+    <item
+        android:id="@+id/hlp"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hint"/>
+     <item
+        android:id="@+id/rte"
+        android:icon="@drawable/ic_gud"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Rate App"/>
+     <item
+        android:id="@+id/dwnloadd"
+        android:icon="@drawable/sdx"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Download strip"/>
+    <item
+        android:id="@+id/clndr"
+        android:icon="@drawable/calndrer"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Calendar view"/>
+    <item
+        android:id="@+id/feeed"
+        android:icon="@drawable/saw"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="Comic Feeds"/>
+    
+    <item
+        android:id="@+id/immrsve"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Immersive Mode"/>
+   
+
+</menu>

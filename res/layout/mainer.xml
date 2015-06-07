@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0b3b6"
+    tools:context=".McFrag" >
+
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignParentBottom="true"
+        android:background="#ececec" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="5dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:progressDrawable="@drawable/asdvf" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pager"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:text="text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressBar1"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:background="@drawable/sdvsiswdnvfiwedv"
+        android:src="@drawable/shikdum" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pager"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:background="@drawable/sdvsiswdnvfiwedv"
+        android:src="@drawable/asv" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pager"
+        android:layout_toLeftOf="@+id/imageButton5"
+        android:background="@drawable/sdvsiswdnvfiwedv"
+        android:src="@drawable/fwda" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pager"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/sdvsiswdnvfiwedv"
+        android:src="@drawable/dsca" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pager"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/sdvsiswdnvfiwedv"
+        android:src="@drawable/reqinddatshit" />
+
+</RelativeLayout>
